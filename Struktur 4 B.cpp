@@ -29,6 +29,7 @@ int main(){
     cin >> mhs[i].alamat.kota;
     cout << "Umur Mahasiswa : ";
     cin >> mhs[i].umur;
+    cin.ignore(1,'\n')
     }
     for (int i=0;i<3;i++){
     cout << endl;
@@ -38,5 +39,5 @@ int main(){
     cout << "\n \t Desa : "<< mhs[i].alamat.desa;
     cout << "\n \t Kota : "<< mhs[i].alamat.kota;
     cout << "\n Umur : "<< mhs[i].umur;
-    
+    }
 }
