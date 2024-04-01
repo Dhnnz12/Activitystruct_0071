@@ -16,7 +16,7 @@ struct Mahasiswa {
 
 int main(){
     Mahasiswa mhs[3];
-    for (int i=0,i<3;i++){
+    for (int i=0;i<3;i++){
     cout << "Data ke-"<<(i+1) << ":"<< endl;
     cout << "Nomor Mahasiswa : ";
     getline(cin ,mhs[i].nim); 
@@ -30,7 +30,7 @@ int main(){
     cin >> mhs[i].alamat.kota;
     cout << "Umur Mahasiswa : ";
     cin >> mhs[i].umur;
-    cin.ignore(1,'\n')
+    cin.ignore(1,'\n');
     }
     for (int i=0;i<3;i++){
     cout << endl;
